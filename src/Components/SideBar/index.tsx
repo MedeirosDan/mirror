@@ -35,7 +35,7 @@ export default function SideBar() {
             <ul>
               {project.pages.map((page, pageIndex) => (
                 <li key={pageIndex}>
-                  <a href={page.link}>{page.page}</a>
+                  <a href={page.link}>{page.page}</a><button>Editar</button>
                 </li>
               ))}
             </ul>
