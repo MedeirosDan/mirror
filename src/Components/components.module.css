@@ -3,12 +3,13 @@
   width: 100%;
   height: 40px;
   align-items: center;
-
+  position: fixed;
   background-color: #070e2a;
 }
 
 .headerLogo {
   width: 20%;
+  color: #fff;
 }
 
 .headerProject {
@@ -21,7 +22,33 @@
 }
 
 .sideBar {
+  position: fixed;
   width: 20%;
   height: 100vh;
   background-color: #161d3a;
+  margin-top: 40px;
+}
+
+.sideBarMenu {
+  padding: 10px;
+}
+
+.sideBarMenuTitle {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.sideBarMenu ul li{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.sideBarLogouf {
+  position: absolute;
+  bottom: 40px;
+  height: 50px;
+  width: 100%;
+  background-color: #444969;
 }
