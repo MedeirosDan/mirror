@@ -1,7 +1,7 @@
 .header {
   display: flex;
   width: 100%;
-  height: 40px;
+  height: 60px;
   align-items: center;
   position: fixed;
   background-color: #070e2a;
@@ -21,12 +21,19 @@
   gap: 20px;
 }
 
+.headerProject ul li{
+  color: #fff;
+}
+
 .sideBar {
   position: fixed;
   width: 20%;
   height: 100vh;
   background-color: #161d3a;
-  margin-top: 40px;
+  margin-top: 60px;
+  -webkit-box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.23);
+box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.23);
 }
 
 .sideBarMenu {
@@ -43,12 +50,39 @@
   justify-content: space-between;
   margin-bottom: 10px;
   color: #fff;
+  border-bottom: 1px solid #444969;
+  padding-bottom: 5px;
 }
+
+.sideBarLinksProject ul li button {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.sideBarLinksProject ul li button svg{
+  width: 20px;
+  color: #fff;
+}
+
+.sideBarLinksProject ul li button svg path{
+  fill: #fff;
+}
+
 
 .sideBarLogouf {
   position: absolute;
-  bottom: 40px;
+  bottom: 60px;
   height: 50px;
   width: 100%;
-  background-color: #444969;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideBarLogouf a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #98173d;
 }
